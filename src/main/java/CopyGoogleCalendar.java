@@ -10,8 +10,9 @@ public class CopyGoogleCalendar {
         Configuration.browser = "chrome";
 
         open("https://www.google.com"); /** Открываем Google.com*/
-        $(By.xpath("//a[text()='Почта']")).click();
-        Selenide.sleep(5000);
+        $(By.xpath("//a[text()='Почта']")).click();/** Нажать кнопку 'Почта'*/
+        $(By.xpath("//a[text()='Войти']")).click();/** Нажать кнопку 'Войти'*/
+        Selenide.sleep(50000);
 
         // Добавьте код для выполнения дополнительных действий, если необходимо
     }
