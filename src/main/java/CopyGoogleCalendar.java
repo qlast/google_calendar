@@ -19,7 +19,7 @@ public class CopyGoogleCalendar {
         $(By.cssSelector("[id=passwordNext]")).click();/** Нажать кнопку 'Далее'*/
         $(By.cssSelector("[id=gbwa]")).click();/** Нажать кнопку 'Квадратик МЕНЮ'*/
         /** Как заморозить веб страницу?'*/
-        Selenide.sleep(500000);
+        Selenide.sleep(500000);/**/
 
         // Добавьте код для выполнения дополнительных действий, если необходимо
     }
